@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    color: #fff !important;
+    text-indent: 30px;
+    float: right;
+    text-align: left;
+    
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none ! important;
+}
+
+
+/*--------Banner Section----------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+
+}
+
+.it-service{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+.logo-img{
+    margin-top: 30px;
+    width: 200px;
+}
